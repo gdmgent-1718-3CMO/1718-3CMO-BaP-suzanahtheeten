@@ -23,6 +23,12 @@
             display: block  !important;
         }
      }
+    
+     .nav-item:hover{
+        
+        border-bottom: 3px solid #F7DD0D;
+        height: 35px;
+    }
 
  }
 
@@ -33,8 +39,20 @@
     .nav {
         display: block;
     }
+    a{
+        color: #313C58;
+        border-bottom: none;
+    }
 
- } 
+    a:hover{
+        /*text-decoration-line: underline;
+        text-decoration-color: #F7DD0D;*/
+        border-bottom: 3px solid #F7DD0D;
+    }
+
+ }
+ 
+
 
 
 
