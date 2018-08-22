@@ -67,6 +67,9 @@ footer {
   }
 }
 
+
+/* BOLLEN KLEUREN*/
+
 .btn-circle {
   width: 30px;
   height: 30px;
@@ -91,4 +94,36 @@ footer {
   font-size: 24px;
   line-height: 1.33;
   border-radius: 35px;
+}
+
+button{
+  background-color: none;
+}
+
+.btn-HEG {
+  background-color: #F7DD0D;
+}
+
+.btn-HEB {
+  background-color: #313C58;
+}
+
+.btn-B {
+  background-color: black;
+}
+
+.btn-W {
+  background-color: white;
+}
+
+.btn-G1 {
+  background-color: #F8F8F8;
+}
+
+.btn-G2 {
+  background-color: #E8E8E8;
+}
+
+.btn-G3 {
+  background-color: #BFBFBF;
 }
