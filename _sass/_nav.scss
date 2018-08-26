@@ -29,16 +29,27 @@
         border-bottom: 3px solid #F7DD0D;
         height: 35px;
     }
+    .navbar a:active{
+        background-color: #F7DD0D;
+    }
 
  }
 
  /* table of contents
  --------------------------- */
  #toc {
+     margin-top: 1.5em;
     margin-bottom: 1em;
     .nav {
         display: block;
     }
+
+    .nav a:active {
+        background-color: #F7DD0D;
+    }
+    
+
+
     a{
         color: #313C58;
         border-bottom: none;
@@ -48,11 +59,8 @@
         /*text-decoration-line: underline;
         text-decoration-color: #F7DD0D;*/
         border-bottom: 3px solid #F7DD0D;
-    }
-
-    a:active{
-        background-color: #F2F2F2;
-    }
+    } 
+    
 
  }
  

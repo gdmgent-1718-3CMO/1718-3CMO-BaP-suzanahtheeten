@@ -20,10 +20,14 @@ html {
 
 body {
     position: relative;
-    margin: 0;
+    margin-top: 15px;
     padding-bottom: 6rem;
     min-height: 100%;
   }
+
+img {
+  margin-top: 25px;
+}
 
 .bh-absolute-bottom {
   position: absolute;
@@ -34,9 +38,33 @@ body {
 
 footer {
     background-color:#313C58;
-    color: $color-white;
-    a {
-        color: $color-white;
+    color:white;
+    margin-top: 30px;
+    position: absolute;
+    width:100%;
+    height:220px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(241, 221, 63);
+  border-bottom: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #313C58;
+  border-bottom: none;
+}
+
+a:active {
+  text-decoration: none;
+  color: #313C58;
+  border-bottom: none;
+  background-color: #F7DD0D;
+}
+
+
 
 
 /* BACK TO TOP
@@ -63,9 +91,9 @@ footer {
   }
 }
 
+
 /* BOLLEN KLEUREN*/
 
 h4 {
   color: rgb(241, 221, 63);
 }
-}}
